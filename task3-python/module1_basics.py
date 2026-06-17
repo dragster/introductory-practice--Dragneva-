@@ -110,3 +110,5 @@ print("Стоимость без НДС:", total_without_vat, "руб.")
 print("Сумма НДС:", vat_amount, "руб.")
 print("Итого к оплате (с НДС):", total_with_vat, "руб.")
 
+
+
