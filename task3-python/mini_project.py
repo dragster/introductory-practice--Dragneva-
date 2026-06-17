@@ -33,3 +33,5 @@ print("\n--- Динамика к предыдущему периоду ---")
 for index in range(1, len(monthly_revenues)):
     trend_result = calculate_trend(monthly_revenues[index], monthly_revenues[index - 1])  # Тип: str
     print(f"Месяц {index + 1} к месяцу {index}: {trend_result}")
+
+ 
